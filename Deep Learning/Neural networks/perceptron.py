@@ -6,10 +6,11 @@ It takes inputs, computes a weighted sum and then applies an activation function
 USED FOR BINARY CLASSIFICATION
 CANNOT IMPLEMENT NON-LINEARLY SEPERABLE PROBLEMS for complex tasks
 """
+import numpy as np
 
 class Perceptron: 
   def __init__(self, input_dim, learning_rate=0.1, epochs=100):
-    self.weights = np.zeroes(input_dim) 
+    self.weights = np.zeros(input_dim) 
     self.bias = 0
     self.learning_rate = learning_rate
     self.epochs = epochs
@@ -40,12 +41,13 @@ class Perceptron:
       for xi, target in zip(x, y):
         pred = self.predict(xi)
         error = target - pred 
-        self.weights += self.lr*error*xi 
-        self.bias += self.lr*error
+        self.weights += self.learning_rate*error*xi 
+        self.bias += self.learning_rate*error
 
 x = np.array([[0,0],[0,1],[1,0],[1,1]])
 y = np.array([0,0,0,1])
 
 myPerceptron = Perceptron(input_dim = 2) 
 myPerceptron.fit(x,y) 
-print(f"Predictions:", [myPerceptron.predict(xi) for xi in x] 
+print(f"Predictions: {[myPerceptron.predict(xi) for xi in x]}")
+print(f"Original: {y}")
