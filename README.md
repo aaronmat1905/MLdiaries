@@ -16,7 +16,7 @@ I'm constantly learning new things, so I'll be updating this regularly as I go. 
 | :--- | :--- | :--- |
 | **Machine Learning** | Decision Trees | **🟡 Working** |
 | **Deep Learning** | Artificial Neural Networks (ANN) | **🟡 Working** |
-| **Deep Learning** | Autoencoders (AE) | **🟡 Working** |
+| **Deep Learning** | Autoencoders (AE) | **🟢 Completed** |
 | **Deep Learning** | Variational Autoencoders (VAE) | **🟡 Working** |
 
 
