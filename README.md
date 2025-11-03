@@ -1,24 +1,79 @@
-# ML-Diaries: Aaron's Hands-on Machine Learning Notes
+# ML-Diaries
 
-Hey everyone!
+A concise, hands-on collection of machine learning and deep learning experiments and reference implementations maintained by Aaron. The repository focuses on practical, well-documented code that demonstrates core ML/DL concepts and workflows.
 
-Welcome to Aaron's ML Notes!
+## Table of contents
 
-This repo is where I keep all my hands-on work. It's a curated collection of practical, code-focused implementations that cover key topics in Machine Learning (ML) and Deep Learning (DL). 
+- [Overview](#overview)
+- [Implemented Modules & Status](#implemented-modules--status)
+- [Repository structure](#repository-structure)
+- [Getting started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-I'm constantly learning new things, so I'll be updating this regularly as I go. Feel free to explore, clone the repo, and learn alongside me!
+## Overview
 
----
+ML-Diaries contains compact, reproducible implementations for learning and teaching fundamental ML/DL techniques. The aim is to provide clear code, runnable examples, and brief explanations so readers can quickly understand and reproduce results.
 
-### 📚 Implemented Modules and Status
+## Implemented Modules & Status
 
-| Category | Topics Included | Status |
-| :--- | :--- | :--- |
-| **Machine Learning** | Decision Trees | **🟡 Working** |
-| **Deep Learning** | Artificial Neural Networks (ANN) | **🟡 Working** |
-| **Deep Learning** | Autoencoders (AE) | **🟢 Completed** |
-| **Deep Learning** | Variational Autoencoders (VAE) | **🟡 Working** |
+| Area | Topic | Status |
+|---|---|---|
+| Machine Learning | Decision Trees | Completed (notebook: DecisionTrees_ID3Algorithm.ipynb) |
+| Machine Learning | Bayesian Learning (Naive Bayes, TF-IDF) | Completed (notebooks & data in Machine Learning/Bayesian Learning) |
+| Machine Learning | Support Vector Machines (SVM) | Completed (notebook: hardMarginSVM.ipynb) |
+| Machine Learning | Hidden Markov Model (HMM) | Completed (notebook: HMM.ipynb) |
+| Deep Learning | Artificial Neural Networks (ANN) | Completed (notebooks, perceptron.py) |
+| Deep Learning | Autoencoders (AE) | Completed (notebook: AutoEncoders.ipynb) |
+| Foundations | Imbalanced Learning | Completed (notebook: ImbalancedLearning.ipynb) |
+| Foundations | PyTorch intro | Completed (notebook: pytorch_intro.ipynb) |
+
+Status legend:
+- Completed — documented examples available (notebooks and/or code present)
+- Partial — partial coverage or examples in progress
+- Planned — listed for future work
+
+## Repository structure
+
+- Deep Learning/ — Autoencoders, neural nets and related notebooks
+   - AE_AutoEncoders/ — AutoEncoders.ipynb
+   - Neural networks/ — activation functions notebook, perceptron.py, ANN notebooks
+- Foundations/ — core concept notebooks (e.g., ImbalancedLearning, pytorch_intro)
+- Machine Learning/ — multiple subtopics
+   - Bayesian Learning/ — bayes notebooks, data (train/dev/test)
+   - Decision Tree/ — DecisionTrees_ID3Algorithm.ipynb
+   - Hidden Markov Model/ — HMM.ipynb
+   - SVM/ — hardMarginSVM.ipynb
+- README.md — this file
+
+(This listing reflects the current folders & notebooks in the repository.)
+
+## Getting started
+
+Prerequisites:
+- Python 3.8+ (recommended)
+- Typical ML libraries: numpy, pandas, scikit-learn, torch or tensorflow (depending on module)
+
+Quick start:
+
+You can directly download the Notebooks, from github.com [Not too much work--just have to locate it], or if you'd like this way, Here's That:
+
+1. Clone the repository:
+   $ git clone <repo-url>
+2. Create and activate a virtual environment:
+   $ python -m venv .venv
+   $ source .venv/bin/activate
+3. Install dependencies (example):
+   $ pip install -r requirements.txt
+4. Explore notebooks/ and run example scripts.
 
 
+## License
 
----
+Actually, I've compiled this work from Personal Notes in Class, **AI-Generated Help**, Different textbooks and sources (Video/Articles on Medium/Substack/YouTube or any other leading platform). So: It's technically a Compilation, use as you wish :)
+
+## Contact
+
+Maintained by AaronTM! 
+Feel free to Mail me on aaronmat.work@gmail.com or LinkedIn | Other Social Media Platforms | Or any old fashioned Methods [Messenger Pigeon , Letter, Marathon Runner, Note-taped to a stone, Horsemen => Anything except mobile]
