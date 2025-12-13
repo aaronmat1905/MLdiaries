@@ -18,16 +18,6 @@ ML-Diaries contains compact, reproducible implementations for learning and teach
 
 ## Implemented Modules & Status
 
-| Area | Topic | Status |
-|---|---|---|
-| Machine Learning | Decision Trees | Completed (notebook: DecisionTrees_ID3Algorithm.ipynb) |
-| Machine Learning | Bayesian Learning (Naive Bayes, TF-IDF) | Completed (notebooks & data in Machine Learning/Bayesian Learning) |
-| Machine Learning | Support Vector Machines (SVM) | Completed (notebook: hardMarginSVM.ipynb) |
-| Machine Learning | Hidden Markov Model (HMM) | Completed (notebook: HMM.ipynb) |
-| Deep Learning | Artificial Neural Networks (ANN) | Completed (notebooks, perceptron.py) |
-| Deep Learning | Autoencoders (AE) | Completed (notebook: AutoEncoders.ipynb) |
-| Foundations | Imbalanced Learning | Completed (notebook: ImbalancedLearning.ipynb) |
-| Foundations | PyTorch intro | Completed (notebook: pytorch_intro.ipynb) |
 
 Status legend:
 - Completed — documented examples available (notebooks and/or code present)
